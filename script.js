@@ -1,4 +1,5 @@
 document.getElementById('search-button').addEventListener('click', searchByName);
+
 function searchByName() {
     const searchValue = document.getElementById('search-box').value.trim();
     if (searchValue) {
@@ -16,7 +17,7 @@ function searchByName() {
             if (data && data.length > 0) {
                 data.forEach(item => {
                     const result = document.createElement('p');
-                    result.textContent = `Name: ${item.name}, Favorite Cookie: ${item.favoriteCookie}`;
+                    result.textContent = `Name: ${item.Name}, Membership ID: ${item.MembershipID}`;
                     resultsDiv.appendChild(result);
                 });
             } else {
