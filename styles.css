@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.search-container {
+    margin-top: 50px;
+}
+
+#search-box {
+    padding: 10px;
+    width: 50%;
+    font-size: 16px;
+}
+
+#search-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#search-button:hover {
+    background-color: #3e8e41;
+}
+
+#search-results {
+    margin-top: 20px;
+    text-align: center;
+}
